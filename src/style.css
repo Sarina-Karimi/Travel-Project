@@ -84,6 +84,11 @@ header a {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.card-grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+}
+
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
@@ -242,8 +247,13 @@ color: #272044;
 opacity: 0.7;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 900px) {
