@@ -156,6 +156,10 @@ main a {
   text-transform: uppercase;
 }
 
+.more {
+  background: none;
+}
+
 section.secondary {
   background: #f8f8f8;
 }
